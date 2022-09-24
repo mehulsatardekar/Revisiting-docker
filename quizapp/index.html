@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./public/css/home.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <section
+        class="ui-card-default flex flex-wrap gap mt-3 py qg-flex-column shadow-md"
+      >
+        <div class="qg-flex-1 width-full pt-1 pb-1 flex flex-wrap">
+          <img
+            class="user-profile"
+            src="./public/img/categories/user-profile.jpeg"
+            alt="user-profile"
+            srcset=""
+          />
+        </div>
+
+        <div class="qg-flex-5 flex flex-column space-between gap-2 pt-1 pb-1">
+          <div class="users flex flex-column gap-1">
+            <span class="font-sm font-mid-bold pb-01 label-text">Tom </span>
+            <span class="font-mid-light label-text label-text-primary font-bold"
+              >Bonus booster 24lv</span
+            >
+          </div>
+          <div class="flex flex-column gap-1 pb-1">
+            <progress
+              class="slider-primary width-full"
+              value="40"
+              min="0"
+              max="100"
+            ></progress>
+          </div>
+          <div class="user-dashboard flex flex-wrap flex-row qg-gap-5">
+            <div class="flex flex-align-item-center gap">
+              <div>
+                <box-icon
+                  name="flag-alt"
+                  type="solid"
+                  color="#4F46E5"
+                ></box-icon>
+              </div>
+              <div class="flex flex-column gap-1">
+                <span class="font-mid-bold label-text label-text-primary"
+                  >27</span
+                >
+                <span class="font-mid-light">Quiz Passed</span>
+              </div>
+            </div>
+
+            <div class="flex flex-align-item-center gap">
+              <div class="bg">
+                <box-icon
+                  name="time-five"
+                  type="solid"
+                  color="#4F46E5"
+                ></box-icon>
+              </div>
+              <div class="flex flex-column gap-1">
+                <span class="font-mid-bold label-text label-text-primary"
+                  >27 min</span
+                >
+                <span class="font-mid-light">Fastest Time</span>
+              </div>
+            </div>
+
+            <div class="flex flex-align-item-center gap">
+              <div>
+                <box-icon
+                  type="solid"
+                  name="check-circle"
+                  color="#4F46E5"
+                ></box-icon>
+              </div>
+              <div class="flex flex-column gap-1">
+                <span class="font-mid-bold label-text label-text-primary"
+                  >270</span
+                >
+                <span class="font-mid-light">Correct Answered</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-wrap qg-gap-5 mt-3 mb-3">
+        <div class="flex flex-column qg-flex-1 gap-1 mt-2">
+          <div>
+            <span class="label-text label-text-primary">Achievements</span>
+          </div>
+          <div class="ui-card-default py-1 shadow-md">
+            <div class="flex flex-between">
+              <div class="">
+                <img src="./public/img/badges/medal.png" alt="" srcset="" />
+              </div>
+
+              <div class="">
+                <img src="./public/img/badges/star.png" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="flex flex-align-item-center flex-justify-center">
+              <div class="">
+                <img src="./public/img/badges/success.png" alt="" srcset="" />
+              </div>
+            </div>
+            <a
+              href="#"
+              class="btn-primary btn btn-py-1 mt-3 flex flex-justify-center"
+            >
+              <span class="icon-default-pl">See More Achievements</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex flex-column qg-flex-2 gap-1 mt-3">
+          <div class="flex flex-between">
+            <span class="label-text label-text-primary">Featured Category</span>
+            <a
+              href="./views/category.html"
+              class="label-text label-text-primary"
+              >See More</a
+            >
+          </div>
+          <div class="ui-card-default py-1 category-grid shadow-md">
+            <a href="./views/quiz-rule.html">
+              <div class="flex relative">
+                <img
+                  src="./public/img/categories/technology.jpeg"
+                  alt="technology"
+                  loading="lazy"
+                  class="img-category"
+                />
+                <div class="img-text">
+                  <span>Technology</span>
+                </div>
+              </div>
+            </a>
+            <a href="./views/quiz-rule.html">
+              <div class="flex relative">
+                <img
+                  src="./public/img/categories/travel.webp"
+                  alt="travel"
+                  loading="lazy"
+                  class="img-category"
+                />
+                <div class="img-text">
+                  <span>Travel</span>
+                </div>
+              </div>
+            </a>
+            <a href="./views/quiz-rule.html">
+              <div class="flex relative">
+                <img
+                  src="./public/img/categories/food.webp"
+                  alt="food"
+                  loading="lazy"
+                  class="img-category"
+                />
+                <div class="img-text">
+                  <span>Food</span>
+                </div>
+              </div>
+            </a>
+            <a href="./views/quiz-rule.html">
+              <div class="flex relative">
+                <img
+                  src="./public/img/categories/food.webp"
+                  alt="food"
+                  loading="lazy"
+                  class="img-category"
+                />
+                <div class="img-text">
+                  <span>Food</span>
+                </div>
+              </div>
+            </a>
+            <a href="./views/quiz-rule.html">
+              <div class="flex relative">
+                <img
+                  src="./public/img/categories/technology.jpeg"
+                  alt="technology"
+                  loading="lazy"
+                  class="img-category"
+                />
+                <div class="img-text">
+                  <span>Technology</span>
+                </div>
+              </div>
+            </a>
+            <div class="flex relative">
+              <img
+                src="./public/img/categories/travel.webp"
+                alt="travel"
+                loading="lazy"
+                class="img-category"
+              />
+              <div class="img-text">
+                <span>Travel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+  </body>
+</html>

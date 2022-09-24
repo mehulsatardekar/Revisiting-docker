@@ -1,0 +1,31 @@
+@import url('https://framer-ui.netlify.app/components/framer.css');
+
+:root{
+    --navbar-bg:#2C2929;
+
+}
+
+.navbar-bg{
+    background: var(--navbar-bg);
+    padding: 1rem 1rem 0rem;
+
+}
+
+
+.qg-gap-5{
+    gap: 5rem;
+}
+
+@media screen and (max-width:700px) {
+  
+   
+    .qg-start-btn{
+        width: 100%;
+        margin-bottom: 3em;
+    }
+    
+    .font-sm{
+      font-size: 1.5em;
+    }
+    
+}
